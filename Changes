@@ -1,10 +1,20 @@
-0.01007
+0.02000 2010-03-03
+    Added "Tween-Classes" to the hierarchy (1XX .. 5XX)
+    Added Tests for "Tween-Classes" to the hierarchy (1XX .. 5XX)
+    Fixed t/06-is_methods.t not to use Plack::Test anymore
+    Changed HTTP::Exception::Base to use as_string from Exception::Class::Base
+    Added location for 3XX Exceptions
+    Added message and error as synonym for status_message (compat for Exception::Class)
+    Fixed t/06-is_methods.t to not include Plack::Test anymore (evil copy/paste)
+    Forgot dates in the Changes-File :\
+
+0.01007 2010-03-03
     fixed some POD
 
-0.01006
+0.01006 2010-03-02
     changed EMail-Address in packages to my CPAN-EMail
 
-0.01005
+0.01005 2010-03-02
     removed VERSION from pod, too much hassle to keep in sync with $VERSION
 
 0.01004 2010-03-02
