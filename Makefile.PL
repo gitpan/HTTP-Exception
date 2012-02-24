@@ -11,16 +11,7 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "throw HTTP-Errors as (Exception::Class-) Exceptions",
   "AUTHOR" => "Thomas M\374ller <tmueller\@cpan.org>",
-  "BUILD_REQUIRES" => {
-    "HTTP::Exception::200" => 0,
-    "HTTP::Exception::405" => 0,
-    "HTTP::Request::Common" => 0,
-    "Plack::Middleware::HTTPExceptions" => 0,
-    "Plack::Test" => 0,
-    "Test::Exception" => 0,
-    "Test::More" => 0,
-    "warnings" => 0
-  },
+  "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -29,14 +20,16 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "HTTP::Exception",
   "PREREQ_PM" => {
-    "Exception::Class" => 0,
-    "Exception::Class::Base" => 0,
-    "HTTP::Status" => 0,
-    "Scalar::Util" => 0,
+    "Exception::Class" => "1.29",
+    "HTTP::Status" => "5.817",
+    "Scalar::Util" => "1.22",
+    "Test::Exception" => "0.29",
+    "Test::More" => "0.88",
     "base" => 0,
-    "strict" => 0
+    "strict" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.04001",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -2,15 +2,7 @@
 abstract: 'throw HTTP-Errors as (Exception::Class-) Exceptions'
 author:
   - 'Thomas Müller <tmueller@cpan.org>'
-build_requires:
-  HTTP::Exception::200: 0
-  HTTP::Exception::405: 0
-  HTTP::Request::Common: 0
-  Plack::Middleware::HTTPExceptions: 0
-  Plack::Test: 0
-  Test::Exception: 0
-  Test::More: 0
-  warnings: 0
+build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -21,10 +13,12 @@ meta-spec:
   version: 1.4
 name: HTTP-Exception
 requires:
-  Exception::Class: 0
-  Exception::Class::Base: 0
-  HTTP::Status: 0
-  Scalar::Util: 0
+  Exception::Class: 1.29
+  HTTP::Status: 5.817
+  Scalar::Util: 1.22
+  Test::Exception: 0.29
+  Test::More: 0.88
   base: 0
   strict: 0
-version: 0.04
+  warnings: 0
+version: 0.04001
