@@ -45,8 +45,6 @@ t/boilerplate.t
 t/eol.t
 t/eol_special.t
 t/lib/Test/HTTP/Exception/Ranges.pm
-t/lib/Test/HTTP/Exception/UserOne.pm
-t/lib/Test/HTTP/Exception/UserTwo.pm
 t/manifest.t
 t/pod.t
 xt/release/pod-coverage.t

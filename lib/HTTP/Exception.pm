@@ -1,11 +1,11 @@
 package HTTP::Exception;
+{
+  $HTTP::Exception::VERSION = '0.04003';
+}
 
 use strict;
 use HTTP::Status;
 use Scalar::Util qw(blessed);
-
-our $VERSION = '0.04001';
-$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 ################################################################################
 sub import {
@@ -42,7 +42,7 @@ HTTP::Exception - throw HTTP-Errors as (Exception::Class-) Exceptions
 
 =head1 VERSION
 
-0.04001
+version 0.04003
 
 =begin readme
 

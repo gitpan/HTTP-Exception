@@ -1,4 +1,7 @@
 package HTTP::Exception::Loader;
+{
+  $HTTP::Exception::Loader::VERSION = '0.04003';
+}
 
 use strict;
 use warnings;
@@ -10,9 +13,6 @@ use HTTP::Exception::3XX;
 use HTTP::Exception::4XX;
 use HTTP::Exception::5XX;
 use HTTP::Status;
-
-our $VERSION = '0.04001';
-$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 ################################################################################
 # little bit messy, but solid
@@ -126,7 +126,7 @@ HTTP::Exception::Loader - Creates HTTP::Exception subclasses
 
 =head1 VERSION
 
-0.04001
+version 0.04003
 
 =head1 DESCRIPTION
 
