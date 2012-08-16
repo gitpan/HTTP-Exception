@@ -40,10 +40,13 @@ t/28-load_errors.t
 t/29-load_redirection.t
 t/30-implicit_all.t
 t/31-load_mixed.t
+t/32-load_warnings.t
 t/boilerplate.t
 t/eol.t
 t/eol_special.t
 t/lib/Test/HTTP/Exception/Ranges.pm
+t/lib/Test/HTTP/Exception/UserOne.pm
+t/lib/Test/HTTP/Exception/UserTwo.pm
 t/manifest.t
 t/pod.t
 xt/release/pod-coverage.t
