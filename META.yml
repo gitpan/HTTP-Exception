@@ -23,5 +23,6 @@ requires:
   strict: 0
   warnings: 0
 resources:
-  repository: git://github.com/tmueller/HTTP-Exception.git
-version: 0.04003
+  bugtracker: https://github.com/tmueller/http_exception/issues
+  repository: git://github.com/tmueller/http_exception.git
+version: 0.04004

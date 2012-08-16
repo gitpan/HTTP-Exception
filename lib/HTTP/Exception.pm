@@ -1,6 +1,6 @@
 package HTTP::Exception;
 {
-  $HTTP::Exception::VERSION = '0.04003';
+  $HTTP::Exception::VERSION = '0.04004';
 }
 
 use strict;
@@ -42,7 +42,7 @@ HTTP::Exception - throw HTTP-Errors as (Exception::Class-) Exceptions
 
 =head1 VERSION
 
-version 0.04003
+version 0.04004
 
 =begin readme
 

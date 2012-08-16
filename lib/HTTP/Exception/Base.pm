@@ -1,6 +1,6 @@
 package HTTP::Exception::Base;
 {
-  $HTTP::Exception::Base::VERSION = '0.04003';
+  $HTTP::Exception::Base::VERSION = '0.04004';
 }
 
 use strict;
@@ -46,7 +46,7 @@ HTTP::Exception::Base - Base Class for exception classes created by HTTP::Except
 
 =head1 VERSION
 
-version 0.04003
+version 0.04004
 
 =head1 DESCRIPTION
 
