@@ -1,5 +1,5 @@
 package HTTP::Exception::2XX;
-$HTTP::Exception::2XX::VERSION = '0.04005';
+$HTTP::Exception::2XX::VERSION = '0.04006';
 use strict;
 use base 'HTTP::Exception::Base';
 
@@ -19,7 +19,7 @@ HTTP::Exception::2XX - Base Class for 2XX (success) Exceptions
 
 =head1 VERSION
 
-version 0.04005
+version 0.04006
 
 =head1 SYNOPSIS
 

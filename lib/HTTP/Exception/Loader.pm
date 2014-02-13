@@ -1,5 +1,5 @@
 package HTTP::Exception::Loader;
-$HTTP::Exception::Loader::VERSION = '0.04005';
+$HTTP::Exception::Loader::VERSION = '0.04006';
 use strict;
 use warnings;
 
@@ -123,7 +123,7 @@ HTTP::Exception::Loader - Creates HTTP::Exception subclasses
 
 =head1 VERSION
 
-version 0.04005
+version 0.04006
 
 =head1 DESCRIPTION
 

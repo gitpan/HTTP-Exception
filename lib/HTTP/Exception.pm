@@ -1,5 +1,5 @@
 package HTTP::Exception;
-$HTTP::Exception::VERSION = '0.04005';
+$HTTP::Exception::VERSION = '0.04006';
 use strict;
 use HTTP::Status;
 use Scalar::Util qw(blessed);
@@ -39,7 +39,7 @@ HTTP::Exception - throw HTTP-Errors as (Exception::Class-) Exceptions
 
 =head1 VERSION
 
-version 0.04005
+version 0.04006
 
 =begin readme
 

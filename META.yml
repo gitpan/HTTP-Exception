@@ -22,4 +22,7 @@ requires:
   base: 0
   strict: 0
   warnings: 0
-version: 0.04005
+resources:
+  bugtracker: https://github.com/tmueller/http_exception/issues
+  repository: git://github.com/tmueller/http_exception.git
+version: 0.04006

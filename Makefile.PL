@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.04005",
+  "VERSION" => "0.04006",
   "test" => {
     "TESTS" => "t/*.t"
   }

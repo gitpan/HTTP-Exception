@@ -1,5 +1,5 @@
 package HTTP::Exception::3XX;
-$HTTP::Exception::3XX::VERSION = '0.04005';
+$HTTP::Exception::3XX::VERSION = '0.04006';
 use strict;
 use base 'HTTP::Exception::Base';
 
@@ -32,7 +32,7 @@ HTTP::Exception::3XX - Base Class for 3XX (redirect) Exceptions
 
 =head1 VERSION
 
-version 0.04005
+version 0.04006
 
 =head1 SYNOPSIS
 
@@ -62,7 +62,7 @@ Fields, that 3XX-Exceptions provide over HTTP::Exceptions.
 
 =head2 location
 
-Indicates, where the browser is beeing redirected to.
+Indicates, where the browser is being redirected to.
 
 =head1 AUTHOR
 
