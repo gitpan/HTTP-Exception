@@ -1,8 +1,5 @@
 package HTTP::Exception::4XX;
-{
-  $HTTP::Exception::4XX::VERSION = '0.04004';
-}
-
+$HTTP::Exception::4XX::VERSION = '0.04005';
 use strict;
 use base 'HTTP::Exception::Base';
 
@@ -22,7 +19,7 @@ HTTP::Exception::4XX - Base Class for 4XX (client error) Exceptions
 
 =head1 VERSION
 
-version 0.04004
+version 0.04005
 
 =head1 SYNOPSIS
 

@@ -1,3 +1,7 @@
+0.04005   2014-02-14 00:03:43+01:00 Europe/Berlin
+    corrected Encoding in dist.ini,
+        due to CPAN Testers reporting an invalid byte sequence in the Makefile
+
 0.04004   2012-08-17 01:00:11 Europe/Berlin
     Dist::Zilla::Plugin::GitHub::Meta extracts correct Metainfos now
 
